@@ -1,5 +1,5 @@
 function [Q,R,x] = GramSchmidt(M,b)
-%Implementation of Gram Schmidt process
+%Implementation of Gram Schmidt process; in MATLAB the function is [Q,R] = qr(A)
 [m,n] = size(M);
 K = zeros(m,n);
 Q = zeros(m,n);
