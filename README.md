@@ -19,11 +19,15 @@ This function uses the Euler approximation method to calculate a value y given t
 
 This function uses the Improved Euler approximation method to calculate a value y given the initial x and y coordinates (x,y), the final x coordinate (x1), and the number of steps (n). The larger n is, the more accurate the approximation is.
 
-5) RungeKutta.m
+5) Gram-Schmidt
+
+This function uses the Gram Schmidt method to solve Ax = b and find solutions to the least squares question. The function may still need editing.
+
+6) RungeKutta.m
 
 This function uses the Runge-Kutta approximation method to calculate a value y given the initial x and y coordinates (x,y), the final x coordinate (x1), and the number of steps (n). The larger n is, the more accurate the approximation is.
 
-6) SteadyStateMatrix.m
+7) SteadyStateMatrix.m
 
 Calculates the steady state s given a matrix A. This means As = s. The matrix A and n can be varied. There are 2 codes provided but both accomplish the same task. It is easy to copy and paste the code and run it in the MATLAB command window.
   
